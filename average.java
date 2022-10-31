@@ -23,6 +23,36 @@ public class AverageWithoutMain {
 	}
 	public static void main(String[] args) {
 		//Scanner s = new Scanner(System.in);
+		System.out.println("enter a number:");
+
+		int n =s.nextInt();
+		boolean primeFlag=true;
+		if(n<=1) {
+			System.out.println("is not prime");
+		}
+		for(i=2;i<=n-1;i++)
+
+		{
+
+		if(n%i==0)
+
+		{
+
+		primeFlag=false;}
+		}
+
+		if(primeFlag == true)
+		{
+
+		System.out.println(n+" is prime");
+
+		}
+		else{
+
+		System.out.println(n+"is not prime");
+
+
+	}
 		average();
 		//System.out.println("Average of Number is :"+ avg);
 	}
