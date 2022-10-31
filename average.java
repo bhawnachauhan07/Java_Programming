@@ -53,6 +53,11 @@ public class AverageWithoutMain {
 
 
 	}
+		System.out.println("Default Values:"+a);
+		System.out.println("Default Values:"+b);
+		System.out.println("Default Values:"+c);
+		System.out.println("Default Values:"+d);
+		System.out.println("Default Values:"+e);
 		average();
 		//System.out.println("Average of Number is :"+ avg);
 	}
